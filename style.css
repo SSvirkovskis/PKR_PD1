@@ -1,0 +1,87 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+nav{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-right: 200px;
+}
+
+.Hero{
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image:url(hero.png) ;
+    color: white;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.Discount{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+
+}
+.pic,.cena,.name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.nocen{
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Discount h3,.Jaunimi h3{
+    text-decoration:line-through ;
+}
+
+button:hover{
+    background-color: rgb(73, 53, 73);
+}
+
+.Jaunimi{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+body{
+    padding: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
